@@ -1,41 +1,43 @@
 function Navigation() {
   return (
-    <>
-    <nav className="navbar navbar-expand-lg" style={{ backgroundColor: "white" }} data-bs-theme="light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" width="30" height="24" />
+    <div>
+
+      <div className="bg-danger text-white text-center py-2">
+        FREE DELIVERY ON ALL ORDERS ABOVE RS.3999
+      </div>
+
+
+      <nav className="navbar navbar-expand-lg bg-white border-bottom">
+        <div className="container-fluid">
+
+          <button className="btn border-0">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+
+          <div className="mx-auto">
+            <img
+              src="./logo.jpeg"
+              alt="Logo"
+              height="90"
+              style={{ objectFit: 'contain' }}
+            />
+          </div>
+
+          <div className="d-flex align-items-center gap-3">
+
+            <a href="#" className="text-dark">
+              <i className="bi bi-person"></i>
             </a>
-            <a class="navbar-brand" href="#">Modest Muse</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Abayas</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Hijabs</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link " href="#">Niqabs</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link " href="#">UnderCaps</a>
-                </li><li class="nav-item">
-                <a class="nav-link " href="#">Hair Scrunchies</a>
-                </li>
-            </ul>
-            </div>
-            <a class="navbar-brand" href="#">
-                <img src="./cart.png" width="30" height="24" />
-                </a>
+            <a href="#" className="text-dark">
+              <i className="bi bi-search"></i>
+            </a>
+            <a href="#" className="text-dark">
+              <i className="bi bi-bag"></i>
+            </a>
+          </div>
         </div>
-        </nav>
-    </>
+      </nav>
+    </div>
   );
 }
 

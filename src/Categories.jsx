@@ -9,34 +9,40 @@ function Categories() {
     { name: "UnderCaps", image: "./undercaps.jpeg" },
     { name: "Hand Gloves", image: "./handgloves.jpeg"}
   ];
-
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4">Shop by Category</h2>
-      <div className="row g-3 justify-content-center">
-        {categories.map((cat, index) => (
-          <div key={index} className="col-6 col-md-4 text-center">
-            <a href="" style={{textDecoration: "none", color: "inherit"}}>
-            <img
-              src={cat.image}
-              alt={cat.name}
-              className="img-fluid"
-              style={{
-                height: "350px",
-                aspectRatio: "1/1",
-                objectFit: "cover",
-                borderRadius: "8px",
-              }}
-            />
-            <h5 className="mt-2">{cat.name}</h5>
-            </a>
+      <h2 className="text-center mb-4 fw-light">COLLECTION LIST</h2>
+      <div className="row">
+        {categories.map((item, index) => (
+          <div key={index} className="col-6 col-md-4 mb-4">
+            <div className="position-relative">
+
+              <img
+                src={item.image}
+                alt={item.name}
+                className="img-fluid w-100"
+                style={{  height: "400px" }}
+              />
+
+             <h5
+                className="position-absolute text-white"
+                style={{
+                  bottom: '10px',
+                  right: '10px',
+                  fontWeight: '500',
+                  letterSpacing: '2px'
+                }}
+              >
+                {item.name}
+              </h5>
+            </div>
           </div>
         ))}
       </div>
     </div>
-
-
   );
+
+
 }
 
 export default Categories;

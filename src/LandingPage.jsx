@@ -1,13 +1,21 @@
 import Categories from "./Categories"
-import HeroSection from "./Herosection"
+import CustomerReviews from "./CustomerReviews"
+import Footer from "./Footer"
+import HeroSection from "./HeroSection"
 import Navigation from "./Navigation"
+import Products from "./Products"
+import ProductPages from "./ProductsPage"
 
 function LandingPage()
 {
     return <>
-    <Navigation />
-    <HeroSection />
-    <Categories />
+    <Navigation/>
+    <HeroSection/>
+    <Categories/>
+    <ProductPages/>
+    <CustomerReviews/>
+    <Footer/>
+    
     </> 
 }
 export default LandingPage
