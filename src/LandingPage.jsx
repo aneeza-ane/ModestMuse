@@ -1,7 +1,7 @@
 import Categories from "./Categories"
 import CustomerReviews from "./CustomerReviews"
 import Footer from "./Footer"
-import HeroSection from "./HeroSection"
+import HeroSection from "./Herosection"
 import Navigation from "./Navigation"
 import Products from "./Products"
 import ProductPages from "./ProductsPage"
@@ -15,7 +15,6 @@ function LandingPage()
     <ProductPages/>
     <CustomerReviews/>
     <Footer/>
-    
     </> 
 }
 export default LandingPage

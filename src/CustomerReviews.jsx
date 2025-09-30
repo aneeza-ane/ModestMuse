@@ -17,6 +17,12 @@ const reviews = [
     title: "Fantastic Abaya.",
     text: "I absolutely adore the trendy styles this store offers. The abaya fit so...",
     name: "Dr Naseemullah Memon"
+  },
+  {
+    stars: 5,
+    title: "Fantastic Abaya.",
+    text: "I absolutely adore the trendy styles this store offers. The abaya fit so...",
+    name: "Dr Naseemullah Memon"
   }
 ];
 
@@ -32,7 +38,7 @@ function CustomerReviews () {
 
       <div className="row justify-content-center mt-4">
         {reviews.map((review, idx) => (
-          <div className="col-md-3 mx-2 mb-4" key={idx}>
+          <div className="col-12 col-md-4 mb-4" key={idx}>
             <div className="card p-3 shadow-sm h-100">
                <div className="text-success mb-2">
       {'★'.repeat(review.stars)}{'☆'.repeat(5 - review.stars)}

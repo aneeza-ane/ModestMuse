@@ -21,7 +21,7 @@ function Categories() {
                 src={item.image}
                 alt={item.name}
                 className="img-fluid w-100"
-                style={{  height: "400px" }}
+                style={{  height: "40vh" }}
               />
 
              <h5
