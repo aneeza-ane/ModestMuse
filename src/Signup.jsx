@@ -52,7 +52,7 @@ function Signup(){
         </div>
 
         {/* Submit Button */}
-        <button className="login-btn">Register</button>
+        <button className="btn">Register</button>
       </div>
     </div>
     </>
