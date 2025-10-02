@@ -14,7 +14,7 @@ function Categories() {
       <h2 className="text-center mb-4 fw-light">COLLECTION LIST</h2>
       <div className="row">
         {categories.map((item, index) => (
-          <div key={index} className="col-6 col-md-4 mb-4">
+          <div key={index} className="col-6 col-md-4  mb-4">
             <div className="position-relative">
 
               <img

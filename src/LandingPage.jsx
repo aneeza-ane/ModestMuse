@@ -9,7 +9,7 @@ import ProductPages from "./ProductsPage"
 function LandingPage()
 {
     return <>
-    <Navigation/>
+   <Navigation/>
     <HeroSection/>
     <Categories/>
     <ProductPages/>

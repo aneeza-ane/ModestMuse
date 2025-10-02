@@ -1,5 +1,4 @@
 import React from "react";
-
 function HeroSection() {
   return (
     <div className="container-fluid p-0 position-relative">

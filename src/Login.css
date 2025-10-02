@@ -1,0 +1,88 @@
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top left, #4b6cb7, #182848);
+}
+
+.login-card {
+  width: 320px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.input-box {
+  position: relative;
+  margin: 20px 0;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-box label {
+  position: absolute;
+  left: 10px;
+  top: -20px;
+  font-size: 13px;
+  color: #ccc;
+}
+
+.icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.btn {
+  padding: 8px 20px;
+  background: #222;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+.btn:hover {
+  background: #444; 
+  color: #ffcc00; 
+}
+
+
+.forgot {
+  font-size: 12px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.register-link {
+  margin-top: 15px;
+}
+
+.register-link a {
+  color: #ddd;
+  font-size: 14px;
+  text-decoration: none;
+}
